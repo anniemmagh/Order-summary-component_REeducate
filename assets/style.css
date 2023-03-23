@@ -13,3 +13,14 @@ body{
     background-repeat: no-repeat;
      background-size: auto 30rem;
 }
+.container{
+    width: 400px;
+    background-image: url(/assets/images/illustration-hero.svg);
+    background-repeat: no-repeat;
+    background-size: auto 10rem;
+    border-radius: 25px;
+    background-color: #ffff;
+    padding: 40px;
+    box-shadow: #e6e7eb ;
+    text-align: center;
+}
