@@ -22,48 +22,114 @@ body {
   background-color: #ffffff;
   box-shadow: #e6e7eb;
   text-align: center;
-  height: 40rem;
+  height: 38rem;
 }
 
 .second_child {
   padding-top: 15rem;
 }
 .second_child .order {
-  font-size: 2rem;
+  font-size:25px;
   font-weight: bold;
   color: #303542;
 }
 .second_child p {
-  font-size: 1rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
   color: #717fa6;
   padding-top: 1rem;
   width: 25rem;
 }
 .third_child {
-
   box-sizing: border-box;
   display: flex;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   width: 400px;
   height: 100px;
-    border-radius: 50px;
-    background-color: #f1f5ff;
-    padding: 30px;
-    margin-top:20px;
-   box-shadow: #8493c1 ;
-    text-align: center;
+  border-radius: 50px;
+  background-color: #f1f5ff;
+  padding: 30px;
+  margin-top: 20px;
+  box-shadow: #8493c1;
+  text-align: center;
 }
 .third_child .plan {
-    color:#1F2E55 ;
-    font-size: 16px;
-    margin-left: 20px;
+  color: #1f2e55;
+  font-size: 16px;
+  margin-left: 30px;
 }
-.third_child h3{
-    color: #717FA6;
-    padding-top: 4rem;
- 
+.change {
+  padding-left: 3rem;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  cursor: pointer;
+  color: #382AE1;
+}
+
+.third_child h3 {
+  position: absolute;
+  height: 35px;
+  left: 0%;
+  right: 0%;
+  color: #717fa6;
+  padding-top: 2rem;
 }
 .fourth_child {
   padding-top: 1rem;
+}
+.fourth_child .btn {
+
+  height: 40px;
+  width: 20rem;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition : all 200ms linear;
+  padding: 0 30px;
+  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: none;
+  background-color: #382AE1;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 15px;
+  
+}
+.fourth_child .btn:hover{
+  height: 40px;
+  width: 20rem;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition : all 200ms linear;
+  padding: 0 30px;
+  letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: none;
+  background-color: #bbb9d1;
+  color: #382AE1;
+  text-decoration: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 15px;
+  
+}
+.cancel{
+  font-size: 15px;
+  color:#717FA6 ;
 }
